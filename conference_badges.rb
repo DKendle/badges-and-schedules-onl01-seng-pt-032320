@@ -19,7 +19,7 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-   badge_messages.each_line do |line| ""
+   batch_badge_creator(attendees).each do |attendee| 
     end
     printer
 end
